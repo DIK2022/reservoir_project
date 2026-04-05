@@ -3,4 +3,11 @@ name = "rust"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+crate-type = ["cdylib"]
+name = "reservoir_core"
+
 [dependencies]
+pyo3 = { version = "0.20", features = ["extension-module"] }
+ndarray = "0.15"
+rand = "0.8"

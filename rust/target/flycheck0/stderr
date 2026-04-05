@@ -1,1 +1,1672 @@
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.20s
+   0.684508600s  INFO prepare_target{force=false package_id=rust v0.1.0 (D:\project\qt\pyside\rust\reservoir_project\rust) target="reservoir_core"}: cargo::core::compiler::fingerprint: fingerprint error for rust v0.1.0 (D:\project\qt\pyside\rust\reservoir_project\rust)/Check { test: false }/TargetInner { ..: lib_target("reservoir_core", ["cdylib"], "D:\\project\\qt\\pyside\\rust\\reservoir_project\\rust\\src\\lib.rs", Edition2024) }
+   0.684852000s  INFO prepare_target{force=false package_id=rust v0.1.0 (D:\project\qt\pyside\rust\reservoir_project\rust) target="reservoir_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\rust-be3a2ccd7f76253b\lib-reservoir_core`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.769722900s  INFO prepare_target{force=false package_id=ndarray v0.15.6 target="ndarray"}: cargo::core::compiler::fingerprint: fingerprint error for ndarray v0.15.6/Check { test: false }/TargetInner { benched: false, ..: lib_target("ndarray", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ndarray-0.15.6\\src\\lib.rs", Edition2018) }
+   0.770832500s  INFO prepare_target{force=false package_id=ndarray v0.15.6 target="ndarray"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\ndarray-898c89e020e03add\lib-ndarray`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.773111100s  INFO prepare_target{force=false package_id=matrixmultiply v0.3.10 target="matrixmultiply"}: cargo::core::compiler::fingerprint: fingerprint error for matrixmultiply v0.3.10/Check { test: false }/TargetInner { benched: false, ..: lib_target("matrixmultiply", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\matrixmultiply-0.3.10\\src\\lib.rs", Edition2018) }
+   0.773333200s  INFO prepare_target{force=false package_id=matrixmultiply v0.3.10 target="matrixmultiply"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\matrixmultiply-76ea61b928702a01\lib-matrixmultiply`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.776811200s  INFO prepare_target{force=false package_id=matrixmultiply v0.3.10 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for matrixmultiply v0.3.10/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\matrixmultiply-0.3.10\\build.rs", Edition2018) }
+   0.776929500s  INFO prepare_target{force=false package_id=matrixmultiply v0.3.10 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\matrixmultiply-e953f1fcd768acad\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.777602400s  INFO prepare_target{force=false package_id=matrixmultiply v0.3.10 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for matrixmultiply v0.3.10/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\matrixmultiply-0.3.10\\build.rs", Edition2018) }
+   0.777686600s  INFO prepare_target{force=false package_id=matrixmultiply v0.3.10 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\matrixmultiply-5522d1b2450c9f0d\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.820204300s  INFO prepare_target{force=false package_id=num-complex v0.4.6 target="num_complex"}: cargo::core::compiler::fingerprint: fingerprint error for num-complex v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_complex", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-complex-0.4.6\\src\\lib.rs", Edition2021) }
+   0.820561300s  INFO prepare_target{force=false package_id=num-complex v0.4.6 target="num_complex"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\num-complex-3d51c8d4e905c43b\lib-num_complex`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.822572600s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.830492700s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\num-traits-6843a638289a919f\lib-num_traits`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.839321300s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
+   0.839926800s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\num-traits-787fc69593c5c41a\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.840946800s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
+   0.841010000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\num-traits-ce569085a59f521e\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.842892600s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint: fingerprint error for num-integer v0.1.46/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_integer", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-integer-0.1.46\\src\\lib.rs", Edition2018) }
+   0.842958100s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\num-integer-6ba23872fd9973c4\lib-num_integer`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.845397000s  INFO prepare_target{force=false package_id=pyo3 v0.20.3 target="pyo3"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3 v0.20.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("pyo3", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-0.20.3\\src\\lib.rs", Edition2021) }
+   0.902555300s  INFO prepare_target{force=false package_id=pyo3 v0.20.3 target="pyo3"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-1bcf56de97d70d75\lib-pyo3`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.922983000s  INFO prepare_target{force=false package_id=indoc v2.0.7 target="indoc"}: cargo::core::compiler::fingerprint: fingerprint error for indoc v2.0.7/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("indoc", ["proc-macro"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indoc-2.0.7\\src\\lib.rs", Edition2021) }
+   0.923117000s  INFO prepare_target{force=false package_id=indoc v2.0.7 target="indoc"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\indoc-cc6a6d13686ed9aa\lib-indoc`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.925217600s  INFO prepare_target{force=false package_id=libc v0.2.184 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.184/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.184\\src\\lib.rs", Edition2021) }
+   0.925349100s  INFO prepare_target{force=false package_id=libc v0.2.184 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\libc-dee07fc058748b72\lib-libc`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.928469700s  INFO prepare_target{force=false package_id=libc v0.2.184 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.184/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.184\\build.rs", Edition2021) }
+   0.928532500s  INFO prepare_target{force=false package_id=libc v0.2.184 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\libc-fe58651ea2941865\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.929078300s  INFO prepare_target{force=false package_id=libc v0.2.184 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.184/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libc-0.2.184\\build.rs", Edition2021) }
+   0.929124900s  INFO prepare_target{force=false package_id=libc v0.2.184 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\libc-45493a63b15b0863\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.930951300s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="memoffset"}: cargo::core::compiler::fingerprint: fingerprint error for memoffset v0.9.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("memoffset", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memoffset-0.9.1\\src\\lib.rs", Edition2015) }
+   0.933142800s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="memoffset"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\memoffset-13d40e43d5424662\lib-memoffset`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.935978100s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for memoffset v0.9.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memoffset-0.9.1\\build.rs", Edition2015) }
+   0.936238400s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\memoffset-7df86723e824fcbc\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.936989300s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for memoffset v0.9.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memoffset-0.9.1\\build.rs", Edition2015) }
+   0.937097100s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\memoffset-a02072a2cbcf92fb\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.938805700s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot v0.12.5/Check { test: false }/TargetInner { ..: lib_target("parking_lot", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot-0.12.5\\src\\lib.rs", Edition2021) }
+   0.938870900s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\parking_lot-aea9ec478e97beb0\lib-parking_lot`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.941038700s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Check { test: false }/TargetInner { ..: lib_target("parking_lot_core", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\src\\lib.rs", Edition2021) }
+   0.941105800s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\parking_lot_core-9e97e8c11f6926bf\lib-parking_lot_core`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.943230900s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\build.rs", Edition2021) }
+   0.943292600s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\parking_lot_core-a0ead7ce42dc14ee\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.943843700s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\build.rs", Edition2021) }
+   0.943884800s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\parking_lot_core-dd14c1e1ced32ba1\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.947605000s  INFO prepare_target{force=false package_id=portable-atomic v1.13.1 target="portable_atomic"}: cargo::core::compiler::fingerprint: fingerprint error for portable-atomic v1.13.1/Check { test: false }/TargetInner { doc_scrape_examples: Disabled, ..: lib_target("portable_atomic", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\portable-atomic-1.13.1\\src\\lib.rs", Edition2018) }
+   0.950326100s  INFO prepare_target{force=false package_id=portable-atomic v1.13.1 target="portable_atomic"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\portable-atomic-f4a185c25a357240\lib-portable_atomic`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.953142600s  INFO prepare_target{force=false package_id=portable-atomic v1.13.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for portable-atomic v1.13.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\portable-atomic-1.13.1\\build.rs", Edition2018) }
+   0.953288300s  INFO prepare_target{force=false package_id=portable-atomic v1.13.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\portable-atomic-e405a6b657ad55ed\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.954353800s  INFO prepare_target{force=false package_id=portable-atomic v1.13.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for portable-atomic v1.13.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\portable-atomic-1.13.1\\build.rs", Edition2018) }
+   0.954419000s  INFO prepare_target{force=false package_id=portable-atomic v1.13.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\portable-atomic-0aaa8cffd7f0008b\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.957123000s  INFO prepare_target{force=false package_id=pyo3 v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3 v0.20.3/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-0.20.3\\build.rs", Edition2021) }
+   0.957244400s  INFO prepare_target{force=false package_id=pyo3 v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-116b6a264262150f\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.958035500s  INFO prepare_target{force=false package_id=pyo3 v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3 v0.20.3/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-0.20.3\\build.rs", Edition2021) }
+   0.958430000s  INFO prepare_target{force=false package_id=pyo3 v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-99bb9381881c0abe\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.959984700s  INFO prepare_target{force=false package_id=pyo3-build-config v0.20.3 target="pyo3_build_config"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3-build-config v0.20.3/Build/TargetInner { name_inferred: true, ..: lib_target("pyo3_build_config", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-build-config-0.20.3\\src\\lib.rs", Edition2021) }
+   0.960051600s  INFO prepare_target{force=false package_id=pyo3-build-config v0.20.3 target="pyo3_build_config"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-build-config-83613c6221bf1b32\lib-pyo3_build_config`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.988780100s  INFO prepare_target{force=false package_id=pyo3-build-config v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3-build-config v0.20.3/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-build-config-0.20.3\\build.rs", Edition2021) }
+   0.988907300s  INFO prepare_target{force=false package_id=pyo3-build-config v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-build-config-7ae074a26756a924\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.989759300s  INFO prepare_target{force=false package_id=pyo3-build-config v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3-build-config v0.20.3/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-build-config-0.20.3\\build.rs", Edition2021) }
+   0.989816900s  INFO prepare_target{force=false package_id=pyo3-build-config v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-build-config-5f921367e7be9c9b\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.991023100s  INFO prepare_target{force=false package_id=target-lexicon v0.12.16 target="target_lexicon"}: cargo::core::compiler::fingerprint: fingerprint error for target-lexicon v0.12.16/Build/TargetInner { ..: lib_target("target_lexicon", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\target-lexicon-0.12.16\\src\\lib.rs", Edition2018) }
+   0.991086400s  INFO prepare_target{force=false package_id=target-lexicon v0.12.16 target="target_lexicon"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\target-lexicon-837666f4a18d439f\lib-target_lexicon`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.037676800s  INFO prepare_target{force=false package_id=target-lexicon v0.12.16 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for target-lexicon v0.12.16/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\target-lexicon-0.12.16\\build.rs", Edition2018) }
+   1.037812100s  INFO prepare_target{force=false package_id=target-lexicon v0.12.16 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\target-lexicon-f78a3dab261ec49c\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.038942900s  INFO prepare_target{force=false package_id=target-lexicon v0.12.16 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for target-lexicon v0.12.16/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\target-lexicon-0.12.16\\build.rs", Edition2018) }
+   1.039050400s  INFO prepare_target{force=false package_id=target-lexicon v0.12.16 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\target-lexicon-f1cfa9c8af0218df\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.041610700s  INFO prepare_target{force=false package_id=pyo3-ffi v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3-ffi v0.20.3/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-ffi-0.20.3\\build.rs", Edition2021) }
+   1.041734700s  INFO prepare_target{force=false package_id=pyo3-ffi v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-ffi-650131563c95662e\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.043923100s  INFO prepare_target{force=false package_id=pyo3-ffi v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3-ffi v0.20.3/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-ffi-0.20.3\\build.rs", Edition2021) }
+   1.043978200s  INFO prepare_target{force=false package_id=pyo3-ffi v0.20.3 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-ffi-603a274358c79264\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.045166700s  INFO prepare_target{force=false package_id=pyo3-ffi v0.20.3 target="pyo3_ffi"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3-ffi v0.20.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("pyo3_ffi", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-ffi-0.20.3\\src\\lib.rs", Edition2021) }
+   1.045230400s  INFO prepare_target{force=false package_id=pyo3-ffi v0.20.3 target="pyo3_ffi"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-ffi-a1a63556655358d9\lib-pyo3_ffi`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.046468800s  INFO prepare_target{force=false package_id=pyo3-macros v0.20.3 target="pyo3_macros"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3-macros v0.20.3/Build/TargetInner { name_inferred: true, for_host: true, proc_macro: true, ..: lib_target("pyo3_macros", ["proc-macro"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-macros-0.20.3\\src\\lib.rs", Edition2021) }
+   1.046525900s  INFO prepare_target{force=false package_id=pyo3-macros v0.20.3 target="pyo3_macros"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-macros-673fd1e1b61f694b\lib-pyo3_macros`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.047862800s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: lib_target("proc_macro2", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\src\\lib.rs", Edition2021) }
+   1.047925900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="proc_macro2"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\proc-macro2-2f0fcc889e2c9cca\lib-proc_macro2`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.052591900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
+   1.053261900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\proc-macro2-56370f09da094f9c\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.053926700s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.106/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.106\\build.rs", Edition2021) }
+   1.053970600s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.106 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\proc-macro2-6be2fbc31fa8b8b4\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.056383200s  INFO prepare_target{force=false package_id=pyo3-macros-backend v0.20.3 target="pyo3_macros_backend"}: cargo::core::compiler::fingerprint: fingerprint error for pyo3-macros-backend v0.20.3/Build/TargetInner { name_inferred: true, ..: lib_target("pyo3_macros_backend", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pyo3-macros-backend-0.20.3\\src\\lib.rs", Edition2021) }
+   1.056448200s  INFO prepare_target{force=false package_id=pyo3-macros-backend v0.20.3 target="pyo3_macros_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\pyo3-macros-backend-c2b79d3389565c44\lib-pyo3_macros_backend`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.060341800s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: lib_target("quote", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\src\\lib.rs", Edition2021) }
+   1.060408300s  INFO prepare_target{force=false package_id=quote v1.0.45 target="quote"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\quote-a44e886c6dc77a34\lib-quote`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.062895800s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
+   1.062963300s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\quote-369d1a48d2def978\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.063588800s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.45/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.45\\build.rs", Edition2021) }
+   1.063642500s  INFO prepare_target{force=false package_id=quote v1.0.45 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\quote-7f47f72891ace304\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.101184400s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint: fingerprint error for syn v2.0.117/Build/TargetInner { ..: lib_target("syn", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\syn-2.0.117\\src\\lib.rs", Edition2021) }
+   1.101251500s  INFO prepare_target{force=false package_id=syn v2.0.117 target="syn"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\syn-2084927418685570\lib-syn`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.103805300s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.8.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.8.5\\src\\lib.rs", Edition2018) }
+   1.103877000s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\rand-6f3494847c7ed5c7\lib-rand`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   1.105274200s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.3.1\\src\\lib.rs", Edition2018) }
+   1.105343300s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\rand_chacha-af78d8244438324a\lib-rand_chacha`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.106541000s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ppv-lite86-0.2.21\\src\\lib.rs", Edition2021) }
+   1.106610300s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\ppv-lite86-5079a6bf6d5b687f\lib-ppv_lite86`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.107731700s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.48/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.48\\src\\lib.rs", Edition2021) }
+   1.107797000s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\zerocopy-a7838e310cce264b\lib-zerocopy`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.110010200s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.48/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.48\\build.rs", Edition2021) }
+   1.110071900s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\zerocopy-7917ae9bf5ab126e\run-build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.110614100s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.48/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Денис\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.48\\build.rs", Edition2021) }
+   1.110658400s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\zerocopy-fb6941bc13e40ff8\build-script-build-script-build`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.113059600s  INFO prepare_target{force=false package_id=rust v0.1.0 (D:\project\qt\pyside\rust\reservoir_project\rust) target="reservoir_core"}: cargo::core::compiler::fingerprint: fingerprint error for rust v0.1.0 (D:\project\qt\pyside\rust\reservoir_project\rust)/Check { test: true }/TargetInner { ..: lib_target("reservoir_core", ["cdylib"], "D:\\project\\qt\\pyside\\rust\\reservoir_project\\rust\\src\\lib.rs", Edition2024) }
+   1.113123300s  INFO prepare_target{force=false package_id=rust v0.1.0 (D:\project\qt\pyside\rust\reservoir_project\rust) target="reservoir_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\project\qt\pyside\rust\reservoir_project\rust\target\debug\.fingerprint\rust-6c23068f9d78d94c\test-lib-reservoir_core`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   Compiling target-lexicon v0.12.16
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.45
+   Compiling num-traits v0.2.19
+error: could not compile `num-traits` (build script) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+   Compiling zerocopy v0.8.48
+error: could not compile `quote` (build script) due to 1 previous error
+   Compiling parking_lot_core v0.9.12
+error: could not compile `proc-macro2` (build script) due to 1 previous error
+   Compiling libc v0.2.184
+error: could not compile `parking_lot_core` (build script) due to 1 previous error
+   Compiling memoffset v0.9.1
+error: could not compile `target-lexicon` (build script) due to 1 previous error
+   Compiling matrixmultiply v0.3.10
+error: could not compile `zerocopy` (build script) due to 1 previous error
+   Compiling portable-atomic v1.13.1
+error: could not compile `memoffset` (build script) due to 1 previous error
+   Compiling indoc v2.0.7
+error: could not compile `matrixmultiply` (build script) due to 1 previous error
+error: could not compile `libc` (build script) due to 1 previous error
+error: could not compile `indoc` (lib) due to 1 previous error
+error: could not compile `portable-atomic` (build script) due to 1 previous error
